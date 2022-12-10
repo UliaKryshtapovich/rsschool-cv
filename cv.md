@@ -13,6 +13,7 @@ And I want to learn Front-End Development in RSSchool.
 * Tel. +48508284536
 * Mail: uliakrishtapovich@gmail.com
 * GitHub: Ulia Kryshtapovich
+* Discord: Ulia Krystapovich
 ***
 
 
