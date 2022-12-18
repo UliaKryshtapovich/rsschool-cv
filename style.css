@@ -1,2 +1,139 @@
-.body { }
-.title { }
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+
+body {
+    margin:0 auto;
+    padding:0;
+    font-family: 'Noto Sans Display', sans-serif;
+}
+ 
+.wrapper {   
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color:rgb(219, 232, 240);
+    color:#1e1d1d;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.header {
+     font-family: 'Noto Sans Display', sans-serif;
+     height: 380px;
+     max-width: 1000px;
+     margin: 0 auto;
+     background-color:rgb(219, 232, 240);
+     border-bottom: 1px solid black;
+}
+
+.header_title {
+    margin-bottom: 100px;
+    padding-left: 400px;
+    padding-bottom:10px;
+    direction: flex;
+    justify-content: right;
+}
+
+.main {
+    padding: 0 50px 0 70px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.container_main {
+    line-height: 35px;
+   font-family: 'Noto Sans Display', sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.column{
+padding-left: 30px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 20px;
+    align-items: center;
+    padding-bottom: 15px;
+    height: 30px;
+    cursor: pointer;
+    list-style: none;
+    transition: color 0.5s;
+    font-size: 17px;
+    background-color:rgba(196, 217, 231, 0.819);
+}
+
+.nav-link  {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+  }
+
+  .link_project {
+    text-decoration: none;
+    color: #1e1d1d;
+  }
+
+  html {
+    background-color:rgb(221, 225, 225);
+    scroll-behavior: smooth; 
+  }
+
+.header_avatar{
+ border-radius: 140px;
+ width: 250px;
+ height: 259px;
+ box-shadow: 10px 5px 90px  #3a5959;
+}
+
+.link-contact {
+    text-decoration: none;
+    color: #1e1d1d;
+}
+
+.a {
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.header_title {
+    font-size: 25px;
+}
+
+.header_subtitle {
+    font-size: 17px;
+    color:#1e1d1dc2;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: #1e1d1d;
+}
+
+.header_title_name {
+    font-size: 25px;
+}
+
+.container_footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(196, 217, 231, 0.819);
+}
+
+.column_header_name {
+    display: inline;
+    bottom: 150px;
+    position: relative;
+}
